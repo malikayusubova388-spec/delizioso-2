@@ -608,24 +608,20 @@ video {
   top: 0px;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .mt-16 {
   margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -652,6 +648,10 @@ video {
   width: 1.25rem;
 }
 
+.w-\[288px\] {
+  width: 288px;
+}
+
 .w-\[50px\] {
   width: 50px;
 }
@@ -660,32 +660,12 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[288px\] {
-  width: 288px;
-}
-
-.max-w-\[\] {
-  max-width: ;
+.max-w-\[232px\] {
+  max-width: 232px;
 }
 
 .max-w-\[700px\] {
   max-width: 700px;
-}
-
-.max-w-\[r\] {
-  max-width: r;
-}
-
-.max-w-\[232p\] {
-  max-width: 232p;
-}
-
-.max-w-\[232px\] {
-  max-width: 232px;
 }
 
 .items-center {
@@ -709,12 +689,17 @@ video {
   border-radius: 9999px;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .bg-\[\#d0ccc77e\] {
   background-color: #d0ccc77e;
+}
+
+.bg-\[\#ff880043\] {
+  background-color: #ff880043;
+}
+
+.bg-primery {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 138 0 / var(--tw-bg-opacity, 1));
 }
 
 .bg-red-500 {
@@ -725,40 +710,6 @@ video {
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(63 167 47 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#ff\] {
-  background-color: #ff;
-}
-
-.bg-\[\#ff88\] {
-  background-color: #ff88;
-}
-
-.bg-\[\#ff880\] {
-  background-color: #ff880;
-}
-
-.bg-\[\#ff8800\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 136 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#ff880043\] {
-  background-color: #ff880043;
-}
-
-.bg-primery {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 138 0 / var(--tw-bg-opacity, 1));
 }
 
 .object-contain {
@@ -776,39 +727,14 @@ video {
   padding-bottom: 3rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.font-\[\] {
-  font-family: ;
-}
-
-.font-\[R\] {
-  font-family: R;
-}
-
-.font-\[Rai\] {
-  font-family: Rai;
-}
-
-.font-\[Ral\] {
-  font-family: Ral;
-}
-
-.font-\[Rale\] {
-  font-family: Rale;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .font-\[Raleway\] {
@@ -836,29 +762,12 @@ video {
   font-weight: 600;
 }
 
-.leading-4 {
-  line-height: 1rem;
-}
-
-.leading-\[5\] {
-  line-height: 5;
-}
-
-.leading-\[5\.25\] {
-  line-height: 5.25;
-}
-
-.leading-\[5\.25rem\] {
-  line-height: 5.25rem;
-}
-
 .leading-8 {
   line-height: 2rem;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+.leading-\[5\.25rem\] {
+  line-height: 5.25rem;
 }
 
 .text-primery {
@@ -871,12 +780,9 @@ video {
   color: rgb(49 31 9 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[80\] {
-  color: 80;
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-primery:hover {
