@@ -12,7 +12,9 @@ module.exports = {
     container: {
       center: true,
       padding: '15px',
-      sm: '1130px'
+      screens:{
+      sm: '1230px'
+    }
     }
   },
   plugins: [],
