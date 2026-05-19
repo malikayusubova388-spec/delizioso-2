@@ -647,6 +647,54 @@ video {
   top: 0px;
 }
 
+.top-\[\] {
+  top: ;
+}
+
+.top-\[55px\] {
+  top: 55px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[64\] {
+  right: 64;
+}
+
+.right-\[64\%\] {
+  right: 64%;
+}
+
+.top-\[4\] {
+  top: 4;
+}
+
+.top-\[4\%\] {
+  top: 4%;
+}
+
+.bottom-\[-53px\] {
+  bottom: -53px;
+}
+
+.left-\[-57px\] {
+  left: -57px;
+}
+
+.right-\[32\%\] {
+  right: 32%;
+}
+
+.top-\[1\%\] {
+  top: 1%;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -755,6 +803,14 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .box-border {
@@ -880,6 +936,14 @@ video {
   height: 100%;
 }
 
+.h-\[1230px\] {
+  height: 1230px;
+}
+
+.h-\[982px\] {
+  height: 982px;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -934,6 +998,18 @@ video {
 
 .max-w-\[700px\] {
   max-width: 700px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[453px\] {
+  max-width: 453px;
+}
+
+.max-w-\[982px\] {
+  max-width: 982px;
 }
 
 .flex-shrink {
@@ -1987,6 +2063,19 @@ video {
   background-color: rgb(49 31 9 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#FFF4E7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 244 231 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#fff4e734\] {
+  background-color: #fff4e734;
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2146,12 +2235,26 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-56 {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
 .pb-48 {
   padding-bottom: 12rem;
 }
 
 .pt-40 {
   padding-top: 10rem;
+}
+
+.pr-\[25\%\] {
+  padding-right: 25%;
 }
 
 .text-left {
@@ -2255,6 +2358,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[70px\] {
+  font-size: 70px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2347,6 +2454,22 @@ video {
   line-height: 4rem;
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-\[110\] {
+  line-height: 110;
+}
+
+.leading-\[110\%\] {
+  line-height: 110%;
+}
+
+.leading-\[200\] {
+  line-height: 200;
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -2379,6 +2502,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
